@@ -1,11 +1,16 @@
 (in-package #:blogee)
 
 (export 'start)
-(defun start (port &key (working-directory nil))
+(defun start (port &key (working-directory nil) (interfaces nil))
   (start-database)
   (when working-directory
     (setf *default-pathname-defaults* working-directory))
-  (reblocks/server:start :port port))
+  (reblocks/debug:off)
+  (if (not interfaces)
+    (reblocks/server:start :debug nil :port port :disable-welcome-app t)
+    (progn
+      (loop for inter in interfaces do
+	    (reblocks/server:start :debug nil :port port :disable-welcome-app t :interface inter)))))
 
 (export 'start-debug)
 (defun start-debug (&key (working-directory nil))
