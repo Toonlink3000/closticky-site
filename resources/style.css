@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: Open Sans;
+    margin: 0;
+    padding: 0;
+}
+
+.wheader
+{
+    display:flex;
+    justify-content: left;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: rgba(255, 117, 186, 1);
+    padding-left: 20px;
+}
+
+.wheader-navbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 10px;
+}
+
+.wheader-site-title
+{
+    font-family: MuseoModerno;
+}
+
+.wheader-site-icon
+{
+    width:100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.wheader-navbar-link
+{
+    font-family: Open Sans;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.wfooter h4
+{
+    font-family: MuseoModerno;
+    text-align: center;
+}
+
+.wfooter
+{
+    width: 100%;
+    background-color: rgba(255, 117, 186, 1);
+    overflow: hidden;
+}
+
+p
+{
+    text-align: center;
+}
+
+.center-box 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.wimage-display
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.wimage-display-block
+{
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wimage-display-block-image
+{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.whello-page-text-block
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.whello-page-text-block p
+{
+    text-align: justify;
+}
+
+.wblogpost
+{
+    background-color: rgba(214, 214, 214, 1);
+    margin-left: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.wblogpost-title
+{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+.wblogpost-subtitle
+{
+    margin-left:20px;
+}
+
+.wblogpost-body
+{
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+
+.wblogpost-creator
+{
+    background-color: rgba(214, 214, 214, 1);
+    width: 40%;
+    padding: 30px;
+}
+
+.wblogpost-creator textarea
+{
+    width: 90%;
+    height: 300px;
+}
+
+.wblogpost-creator input[type=text]
+{
+    width: 78%;
+}
+
+.wblogpost-creator button
+{
+    width: 90%;
+}
+
+.wimage-bubble-list
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.wimage-bubble
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+.wimage-bubble img
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.wimage-bubble h3
+{
+    text-align:center;
+}

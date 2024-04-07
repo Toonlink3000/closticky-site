@@ -1,0 +1,9 @@
+(require 'asdf)
+
+(asdf:defsystem #:blogee
+  :depends-on ("reblocks" "reblocks-ui" "find-port" "parenscript" "reblocks-lass")
+  :serial t
+  :components ((:file "package")
+	       (:file "widgets/header")
+	       (:file "widgets/footer")
+	       (:file "main")))
