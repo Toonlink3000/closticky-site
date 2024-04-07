@@ -1,0 +1,2 @@
+# closticky-site
+School project
