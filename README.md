@@ -1,2 +1,3 @@
 # closticky-site
 School project
+http://clos-ticky.odnd.cz/
