@@ -5,9 +5,9 @@
   :serial t
   :components ((:file "package")
 	       (:file "database")
-	       (:file "widgets/image-bubbles.lisp")
-	       (:file "widgets/login-screen.lisp")
-	       (:file "widgets/blogpost-creator.lisp")
+	       (:file "widgets/image-bubbles")
+	       (:file "widgets/login-screen")
+	       (:file "widgets/blogpost-creator")
 	       (:file "widgets/blogpost")
 	       (:file "widgets/blogpost-list")
 	       (:file "widgets/styler")
